@@ -1,0 +1,31 @@
+
+.text-mg{
+    margin: 40px 0px;
+}
+.paragraph{
+    color: $secondTextColor;
+    margin:10px 0px;
+}
+.block{
+    border: 2px solid #fff;
+    margin: 14px 0px 0px -11px;
+}
+.box-title{
+    text-align: left;
+    padding: 15px 0px 20px 60px;
+    &::before{
+        content: "";
+        background-image: url(/images/icons/f2_ppl.svg);
+        background-repeat: no-repeat;
+        z-index: 10;
+        position: absolute;
+        left: 15px;
+        right: 0px;
+        bottom: 54px;
+        height: 25%;
+        background-size: contain;
+        @include media-breakpoint-down(xs) {
+            background-image: url(/images/icons/f2_ppl_ph.svg);
+        } 
+    }
+}

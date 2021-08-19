@@ -1,0 +1,34 @@
+.review-box{
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px; 
+    margin-right: 10px;   
+    p{
+        color:$secondTextColor
+    }
+    h3{
+        color: $bgColor;
+    }
+    h6{
+        color:$secondTextColor;
+    }
+    @include media-breakpoint-down(xs){
+        margin-right: 0;   
+    }
+}
+.review-box-text{
+    margin-top: 20px;
+    @include media-breakpoint-down(xs){
+        background-color: #ffffff;
+        padding-top: 20px;
+    }
+}
+.review-box img{
+    @include media-breakpoint-down(xs){
+        height: 246px;
+        object-fit: cover;
+        object-position: 0px -22px;
+        width: 100%;
+        overflow: hidden;
+    }
+}

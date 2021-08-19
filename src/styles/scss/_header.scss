@@ -1,0 +1,53 @@
+.nav-item{
+    margin-right: 20px;
+}
+.navbar{
+    padding: 0.5rem 0rem;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.navbar-nav{
+    margin-left: 50px;
+    @include media-breakpoint-down(xs){
+        text-align: center;
+        margin: 0;
+    }
+}
+.login{
+    margin-top: 7px;
+    color: $mainColor;
+}
+.login-btn{
+    padding-right: 40px;
+    position: relative;
+        &::before{
+            content: "";
+            display: block;
+            background-image: url(/images/icons/Vector.svg);
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 15px;
+            left: 156px;
+            width: 12px;
+            top: 14px;
+            background-size: contain;
+            @include media-breakpoint-down(xs){
+               
+                left: 236px;
+            }
+        }
+        @include media-breakpoint-down(xs){
+            margin-top: 20px;
+        }
+}
+.btn-burger{
+    background-image: url(/images/icons/burger.svg);
+}
+
+.btn-search{
+    background-image: url(/images/icons/search.svg);
+}
+.btn-shop{
+    background-image: url(/images/icons/shop.svg);
+}

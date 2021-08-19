@@ -1,0 +1,29 @@
+.btn{
+    &.btn-primary{
+        background-color: $mainColor;
+        border-radius: 37px;
+        margin:5px;
+        padding: 10px 30px 10px 30px;
+        
+    }
+    &.btn-secondary{
+        border-radius: 37px;
+        margin:5px;
+        background-color:Transparent;
+        padding: 10px 30px 10px 30px;
+        border:2px solid #ffffff;
+        &.btn-secondary-box{
+            color: $mainColor;
+            border:2px solid  $mainColor;
+        }
+    }
+    &.btn-buy{
+        background-color: $mainColor;
+        border-radius: 5px;
+        color: #ffffff;
+        width: 100%;
+        
+    }
+    
+    
+}

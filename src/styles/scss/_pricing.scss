@@ -1,0 +1,46 @@
+.pricing-box{
+    background-color: $prcBoxColor;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 17px;
+    h3{
+        color:$bgColor;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h5{
+        color:$secondTextColor;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h2{
+        color:$mainColor;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    ul{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    li{
+        color: $bgColor;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            background-image: url(/images/icons/icn-circle1.svg);
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 29px;
+            left: -23px;
+            width: 22px;
+            top: 2px;
+            background-size: contain;
+    
+        }
+    }
+    
+}

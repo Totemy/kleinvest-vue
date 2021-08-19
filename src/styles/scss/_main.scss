@@ -1,0 +1,16 @@
+body{
+    background-color: $bgColor;
+    color: #ffffff;
+    @include media-breakpoint-down(xs) {
+        margin: 10px;
+    }
+    
+}
+.main-block-f{
+    text-align: center;
+    margin:152px 0px 150px 0;
+    
+}
+.title-text{
+    margin-bottom: 50px;
+}
